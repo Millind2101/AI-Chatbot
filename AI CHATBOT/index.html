@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>AI Chatbot</title>
+    <style>
+      #chatbot {
+        border: 1px solid black;
+        height: 400px;
+        overflow-y: scroll;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>AI Chatbot</h1>
+    <form onsubmit="return sendMessage()">
+      <input type="text" id="userMessage" autocomplete="off">
+      <button type="submit">Send</button>
+    </form>
+    <div id="chatbot"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
